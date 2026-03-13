@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "2.0.1" %}
 {% set python_min = python_min|default("3.9") %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/c/curated-transformers/curated-transformers-{{ version }}.tar.gz
-  sha256: 4671f03314df30efda2ec2b59bc7692ea34fcea44cb65382342c16684e8a2119
+  url: https://pypi.org/packages/source/c/curated-transformers/curated_transformers-{{ version }}.tar.gz
+  sha256: 3348e639d9247bf222bcd90cefded05b37c5dc0e798b0af6957e37a4aafd0f1d
 
 build:
   noarch: python
